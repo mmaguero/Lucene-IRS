@@ -28,4 +28,4 @@ Básicamente se invoca una clase Java (origen) con la lógica en Lucene, desde u
 de middleware, intercambiando objetos con páginas HTML5 (para la entrada de datos) y JSP (para
 la interacción: entrada de datos y salida de coincidencias).
 
-[Manual de usuario](/demo)
+Ver [Manual de usuario](/demo) 
