@@ -14,8 +14,7 @@ buildNumber.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
+
 *.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
@@ -26,6 +25,11 @@ build/
 
 .project
 .classpath
+*.zip
+*.tgz
+
+*.odt
+
 
 
 

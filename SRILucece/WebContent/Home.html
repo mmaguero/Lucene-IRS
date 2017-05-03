@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description"
+	content="A simple search engine with Lucene 4.3 for SGML files">
+<meta name="author" content="mmaguero">
+<link rel="icon"
+	href="https://lucene.apache.org/core/2_9_4/images/favicon.ico">
+
+<title>A simple search engine with Lucene 4.3 for SGML Files</title>
+
+<!-- Bootstrap core CSS -->
+<link
+	href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="https://v4-alpha.getbootstrap.com/examples/cover/cover.css"
+	rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="site-wrapper">
+
+		<div class="site-wrapper-inner">
+
+			<div class="cover-container">
+
+				<div class="masthead clearfix">
+					<div class="inner">
+						<h3 class="masthead-brand">Search</h3>
+						<nav class="nav nav-masthead">
+							<a class="nav-link active" href="#">Home</a> <a class="nav-link"
+								href="#about">About</a>
+						</nav>
+					</div>
+				</div>
+
+				<div class="inner cover">
+					<h1 class="cover-heading">Simple Searcher.</h1>
+					<p class="lead">A simple search engine for SGML Files.</p>
+
+					<form action="searchForm" method="post">
+						<div class="form-group row">
+							<!--  <label for="inputText" class="col-2 col-form-label">Search</label> 
+							<div class="col-10"> -->
+							<input class="form-control form-control-lg" type="search"
+								placeholder="Input text" name="inputText" onload="this.focus()"
+								autofocus>
+							<!-- </div> -->
+						</div>
+
+						<p class="lead">
+							<button type="submit" class="btn btn-lg btn-secondary">Go!</button>
+						</p>
+					</form>
+
+				</div>
+
+				<div class="mastfoot">
+					<div class="inner">
+						<p id="about">
+							<!--Cover template for <a href="https://getbootstrap.com">Bootstrap</a>,
+							by <a href="https://twitter.com/mdo">@mdo</a>.-->
+							Search Engine with <a href="https://getbootstrap.com">Bootstrap</a>
+							and <a href="https://lucene.apache.org/">Lucene</a>, by <a
+								href="https://github.com/mmaguero">@mmaguero</a>
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script
+		src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script
+		src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
