@@ -1,5 +1,5 @@
 # Lucene-IRS
-[GIW-MII-UGR-2016-17] Desarrollo de un Sistema de Recuperación de Información con Lucene
+**[GIW-MII-UGR-2016-17]** *Desarrollo de un Sistema de Recuperación de Información con Lucene*
 
 Para este trabajo se desarrolló un indexador sobre la colección documental de noticias en español de
 la agencia EFE, publicadas en los años 19942, y un motor de búsqueda simple (búsquedas de
