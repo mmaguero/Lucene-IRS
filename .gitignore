@@ -31,5 +31,7 @@ build/
 *.odt
 
 
+.zip
+.tgz
 
-
+doc/*.odt
