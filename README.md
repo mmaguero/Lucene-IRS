@@ -2,7 +2,7 @@
 **[GIW-MII-UGR-2016-17]** *Desarrollo de un Sistema de Recuperación de Información con Lucene*
 
 Para este trabajo se desarrolló un indexador sobre la colección documental de noticias en español de
-la agencia EFE, publicadas en los años 19942, y un motor de búsqueda simple (búsquedas de
+la agencia EFE, publicadas en los años 1994, y un motor de búsqueda simple (búsquedas de
 palabras) sobre una plataforma Web (que nos recuerda mucho al de Google). En ambos casos se
 utilizaron los códigos base, proveídos en el guión del trabajo, solo que utilizando el
 SpanishAnalyzer en vez del estándar, y los añadidos para manejar los documentos en formato
