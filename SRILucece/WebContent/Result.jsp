@@ -65,7 +65,7 @@
 						j++;
 			%>
 			<div class="col-md-10">
-				<a class="btn btn-link bd-title" href="#" role="button"
+				<a class="bd-title" href="#" 
 					data-toggle="modal" data-target=".bd-example-modal-lg<%=j%>"><%=i.getTitle()%>
 					&raquo; </a>
 				<p>
